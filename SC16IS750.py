@@ -72,6 +72,11 @@ class SC16IS750:
 
         self.unsetRegisterBit(self.registers.LCR, 7)
 
+    ##Set the desired UART attributes##
+    def setUARTAttributes(self, dataBits, parityType, stopBits):
+        #Calculate bits for LCR register#
+        print("Setting UART attributes.")
+
     ##Set the bit in position passed##
     def setRegisterBit(self, registerAddress, registerBit):
         current = self.readRegister(registerAddress)
