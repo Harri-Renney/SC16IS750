@@ -3,3 +3,6 @@
 LICENSE
 setup.py
 .gitignore~
+build
+dist
+SC16IS750_Python_Driver.egg-info
