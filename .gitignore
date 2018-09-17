@@ -2,3 +2,4 @@
 *.py~
 LICENSE
 setup.py
+.gitignore~
